@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Counter</string>
+   
+    <string name="newButton">Nieuw</string>
+    <string name="saveButton">Opslaan</string>
+    <string name="editButton">Wijzigen</string>
+    <string name="deleteButton">Verwijderen</string>
+    <string name="cameraButton">Foto Maken</string>    
+    
+    <string name="nameText">Naam</string>
+    <string name="countText">Aantal</string>
+    
+    <string name="nameError">Er is geen naam ingevuld!</string>
+</resources>

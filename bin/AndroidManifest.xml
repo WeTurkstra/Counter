@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="wet.software.counter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+	
+	<uses-feature android:name="android.hardware.camera"></uses-feature>  
+    <uses-permission android:name="android.permission.CAMERA"/>
+    
+   	<application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="wet.software.counter.CounterListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wet.software.counter.CounterFormActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="wet.software.counter.CounterDetailsActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>
